@@ -1334,8 +1334,8 @@ u,
 	}
 }
 
-.holder-search-form input[type^=text],
-.holder-search-form input[type^=search] {
+.holder-search-form input[type^="text"],
+.holder-search-form input[type^="search"] {
 	display: inline-block;
 	width: 9.600rem;
 	font-family: inherit;
@@ -1353,10 +1353,10 @@ u,
 	padding: 0.533rem 2.400rem 0.533rem 0.533rem;
 }
 
-.holder-search-form input[type^=text]:focus,
-.holder-search-form input[type^=text]:active,
-.holder-search-form input[type^=search]:focus,
-.holder-search-form input[type^=search]:active {
+.holder-search-form input[type^="text"]:focus,
+.holder-search-form input[type^="text"]:active,
+.holder-search-form input[type^="search"]:focus,
+.holder-search-form input[type^="search"]:active {
 	width: 18.133rem;
 	color: inherit;
 	background-color: $left-nav-bar-light;
@@ -1366,15 +1366,15 @@ u,
 }
 
 @media only screen and (max-width: 480px) {
-	.holder-search-form input[type^=text]:focus,
-	.holder-search-form input[type^=text]:active,
-	.holder-search-form input[type^=search]:focus,
-	.holder-search-form input[type^=search]:active {
+	.holder-search-form input[type^="text"]:focus,
+	.holder-search-form input[type^="text"]:active,
+	.holder-search-form input[type^="search"]:focus,
+	.holder-search-form input[type^="search"]:active {
 		width: 12.800rem;
 	}
 }
 
-.holder-search-form button[type^=submit] {
+.holder-search-form button[type^="submit"] {
 	display: inline-block;
 	width: 2.400rem;
 	height: 2.400rem;
@@ -1390,12 +1390,12 @@ u,
 	padding: 1.133rem;
 }
 
-/* .holder-search-form button[type^=submit]:focus, */
-.holder-search-form button[type^=submit]:active {
+/* .holder-search-form button[type^="submit"]:focus, */
+.holder-search-form button[type^="submit"]:active {
 	color: $accent-color;
 }
 
-.holder-search-form button[type^=submit] .ui-icon {
+.holder-search-form button[type^="submit"] .ui-icon {
 	display: block;
 	width: 1.067rem;
 	height: 1.067rem;
@@ -1404,11 +1404,11 @@ u,
 	bottom: 0.533rem;
 }
 
-.holder-search-form button[type^=submit] .ui-icon > * {
+.holder-search-form button[type^="submit"] .ui-icon > * {
 	fill: $placeholder-text;
 }
 
-.holder-search-form button[type^=submit]:active .ui-icon > * {
+.holder-search-form button[type^="submit"]:active .ui-icon > * {
 	fill: $accent-color;
 }
 

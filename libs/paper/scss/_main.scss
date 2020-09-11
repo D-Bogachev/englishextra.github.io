@@ -488,8 +488,8 @@ u,
 	right: 0.400rem;
 }
 
-.holder-search-form input[type^=text],
-.holder-search-form input[type^=search] {
+.holder-search-form input[type^="text"],
+.holder-search-form input[type^="search"] {
 	display: inline-block;
 	width: 9.600rem;
 	font-family: inherit;
@@ -506,10 +506,10 @@ u,
 	padding: 0.533rem 2.400rem 0.533rem 0.533rem;
 }
 
-.holder-search-form input[type^=text]:focus,
-.holder-search-form input[type^=text]:active,
-.holder-search-form input[type^=search]:focus,
-.holder-search-form input[type^=search]:active {
+.holder-search-form input[type^="text"]:focus,
+.holder-search-form input[type^="text"]:active,
+.holder-search-form input[type^="search"]:focus,
+.holder-search-form input[type^="search"]:active {
 	width: 18.133rem;
 	background-color: $color-hex-hover-ui-icon-bg;
 	border-color: transparent;
@@ -518,15 +518,15 @@ u,
 }
 
 @media only screen and (max-width: 480px) {
-	.holder-search-form input[type^=text]:focus,
-	.holder-search-form input[type^=text]:active,
-	.holder-search-form input[type^=search]:focus,
-	.holder-search-form input[type^=search]:active {
+	.holder-search-form input[type^="text"]:focus,
+	.holder-search-form input[type^="text"]:active,
+	.holder-search-form input[type^="search"]:focus,
+	.holder-search-form input[type^="search"]:active {
 		width: 14.133rem;
 	}
 }
 
-.holder-search-form button[type^=submit] {
+.holder-search-form button[type^="submit"] {
 	display: inline-block;
 	width: 2.400rem;
 	height: 2.400rem;
@@ -542,7 +542,7 @@ u,
 	padding: 1.133rem;
 }
 
-.holder-search-form button[type^=submit]:after {
+.holder-search-form button[type^="submit"]:after {
 	position: absolute;
 	top: 0;
 	right: 0.600rem;
@@ -552,8 +552,8 @@ u,
 	line-height: 2.267rem;
 }
 
-/* .holder-search-form button[type^=submit]:focus, */
-.holder-search-form button[type^=submit]:active {
+/* .holder-search-form button[type^="submit"]:focus, */
+.holder-search-form button[type^="submit"]:active {
 	color: $color-hex-body-text;
 	background-color: $accent-color;
 	border: 0.067rem solid $accent-color;
@@ -571,8 +571,8 @@ u,
 	padding: 0.533rem 0.667rem;
 }
 
-.holder-search-form input[type^=text],
-.holder-search-form input[type^=search] {
+.holder-search-form input[type^="text"],
+.holder-search-form input[type^="search"] {
 	display: inline-block;
 	background-color: $color-hex-ui-bar-bg;
 }

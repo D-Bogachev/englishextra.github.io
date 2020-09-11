@@ -754,7 +754,7 @@ u,
 	margin-bottom: 1.500rem;
 }
 
-#search_form input[type=text] {
+#search_form input[type^="text"] {
 	width: 100%;
 }
 
