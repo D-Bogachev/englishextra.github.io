@@ -1,1 +1,1 @@
-start "" "D:\server\nwjs-win-x64\nw.exe" "./"
+start "" "G:\server\apps\nwjs-win-x64\nw.exe" "./"

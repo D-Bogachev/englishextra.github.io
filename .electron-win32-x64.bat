@@ -1,1 +1,1 @@
-start "" "D:\server\electron-win32-x64\electron.exe" "./index.js"
+start "" "G:\server\apps\electron-win32-x64\electron.exe" "./index.js"
