@@ -2,8 +2,7 @@
 *.fw.png
 *.map
 *.npp
-*.psd
-*.URL
+*.psd
 *.xdk
 *.xdke
 .GITHUB.md
